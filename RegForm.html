@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Vigilant Armament Systems - Register</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Arial", sans-serif;
+    }
+
+    body {
+      background-image: url('final.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+
+    .wrapper h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+	  text-align: center;
+    }
+
+    .wrapper h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="phone"],
+    select {
+      width: calc(100% - 60px);
+      height: 40px;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      width: 82%;
+      height: 40px;
+      background-color: #000000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body> 
+  <div class="wrapper">
+    <h1>Register Here</h1>
+    <center> 
+    <form action="" method="">
+      <input type="text" name="user" placeholder="Enter username">
+      <br>
+      <input type="text" name="user_pass" placeholder="Enter password">
+      <br>
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="others">Others
+      <br>
+      <select name="phone_code">
+        <option value="+63">+63</option>
+        <option value="+254">+254</option>
+        <option value="+255">+255</option>
+        <option value="+256">+256</option>
+        <option value="+257">+257</option>
+        <option value="+258">+258</option>
+      </select>
+      <input type="phone" name="mob_digits" placeholder="Enter phone number" maxlength="11">
+      <br>
+      <input type="submit" name="submit" value="Register">
+    </form>
+    <br>
+    <p>Already a user? <a href="risma_hr_act4_banner.html">Log In</a></p>
+  </div>
+</center>
+</body>
+</html>
